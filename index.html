@@ -3,49 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Портфолио HydraDev — быстрые сайты на WordPress, Grav и чистом HTML/CSS.">
-  <title>HydraDev — сайты и веб-инструменты</title>
+  <meta name="description" content="HydraDev — разработка сайтов на WordPress, Grav и HTML/CSS.">
+  <meta name="theme-color" content="#101114">
+  <title>HydraDev — сайты с характером</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="#top">HydraDev<span>.</span></a>
+    <a class="brand" href="#top" aria-label="HydraDev, на главную"><span class="brand-mark">H</span> Hydra<span>Dev</span></a>
     <nav aria-label="Основная навигация">
-      <a href="#works">Работы</a>
-      <a href="#services">Услуги</a>
-      <a href="#contact">Контакты</a>
+      <a href="#works">Работы</a><a href="#services">Услуги</a><a href="#contacts">Контакты</a>
     </nav>
+    <span class="availability"><i></i> открыт к проектам</span>
   </header>
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Сайты для небольших проектов</p>
-      <h1>Понятные сайты,<br><em>которые работают.</em></h1>
-      <p class="lead">Создаю аккуратные лендинги и сайты на WordPress, Grav и чистом HTML/CSS — от идеи до публикации.</p>
-      <a class="button" href="#contact">Обсудить проект <span>↗</span></a>
+      <div class="hero-copy">
+        <p class="eyebrow">Web development / 2026</p>
+        <h1>Сайты,<br><em>которые</em><br>запоминаются.</h1>
+        <p class="lead">Делаю современные и понятные сайты для людей, проектов и небольших компаний.</p>
+        <div class="hero-actions"><a class="button" href="#contacts">Связаться <span>↗</span></a><span class="scroll-note">↓ листай ниже</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orb"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-label">ideas → interface</span></div>
     </section>
+
+    <section class="intro"><p class="section-number">01 / подход</p><p class="intro-text">Не просто собираю страницы из блоков. Помогаю превратить идею в <strong>аккуратный цифровой опыт</strong> — быстрый, адаптивный и удобный.</p></section>
 
     <section class="section" id="works">
-      <div class="section-heading"><p class="eyebrow">Избранное</p><h2>Работы</h2></div>
+      <div class="section-top"><div><p class="eyebrow">Selected work</p><h2>Работы</h2></div><p class="section-caption">Демо-проекты и эксперименты<br>появятся здесь совсем скоро.</p></div>
       <div class="work-grid">
-        <article class="work-card featured"><div class="work-image warm"><span>01</span></div><div class="work-meta"><h3>Проект появится здесь</h3><p>Первый демо-сайт для портфолио</p><b>В разработке</b></div></article>
-        <article class="work-card"><div class="work-image cool"><span>02</span></div><div class="work-meta"><h3>Следующий проект</h3><p>Сайт услуги или небольшого бизнеса</p><b>Скоро</b></div></article>
-        <article class="work-card"><div class="work-image dark"><span>03</span></div><div class="work-meta"><h3>Мини-инструмент</h3><p>Калькулятор, форма или полезный сервис</p><b>Скоро</b></div></article>
+        <article class="work-card work-main"><div class="work-visual visual-orange"><span class="visual-index">01</span><span class="visual-word">studio</span></div><div class="work-info"><div><h3>Первый проект</h3><p>Сайт для творческой студии</p></div><span class="status">в разработке</span></div></article>
+        <article class="work-card"><div class="work-visual visual-blue"><span class="visual-index">02</span><span class="visual-word">service</span></div><div class="work-info"><div><h3>Сервисный сайт</h3><p>Понятно о сложном</p></div><span class="status">скоро</span></div></article>
+        <article class="work-card"><div class="work-visual visual-violet"><span class="visual-index">03</span><span class="visual-word">tool</span></div><div class="work-info"><div><h3>Веб-инструмент</h3><p>Полезная идея в браузере</p></div><span class="status">скоро</span></div></article>
       </div>
     </section>
 
-    <section class="section services" id="services">
-      <div class="section-heading"><p class="eyebrow">Что делаю</p><h2>Услуги</h2></div>
-      <div class="service-list">
-        <div><span>01</span><h3>Лендинг</h3><p>Одна страница с услугами, ценами, контактами и заявкой.</p></div>
-        <div><span>02</span><h3>Сайт на CMS</h3><p>Удобный сайт на WordPress или Grav, который можно обновлять.</p></div>
-        <div><span>03</span><h3>Доработки</h3><p>Исправление, адаптация и улучшение уже существующего сайта.</p></div>
-      </div>
-    </section>
+    <section class="section services" id="services"><div class="section-top"><div><p class="eyebrow">What I do</p><h2>Услуги</h2></div></div><div class="service-list"><div><span>01</span><h3>Лендинги</h3><p>Соберу страницу, которая ясно рассказывает о продукте, услуге или проекте.</p></div><div><span>02</span><h3>Сайты на CMS</h3><p>WordPress или Grav — чтобы контент можно было обновлять самостоятельно.</p></div><div><span>03</span><h3>Доработки</h3><p>Исправлю, ускорю и аккуратно обновлю существующий сайт.</p></div></div></section>
 
-    <section class="contact" id="contact"><p class="eyebrow">Есть идея?</p><h2>Давайте сделаем<br><em>что-то хорошее.</em></h2><a class="contact-link" href="mailto:your-email@example.com">your-email@example.com <span>↗</span></a></section>
+    <section class="contact" id="contacts"><p class="eyebrow">Have a project?</p><h2>Давай сделаем<br><em>что-то сильное.</em></h2><div class="contact-grid"><a href="mailto:hydradev600@gmail.com"><small>Почта</small><span>hydradev600@gmail.com</span><b>↗</b></a><a href="tel:+79932259390"><small>Телефон</small><span>+7 (993) 225-9390</span><b>↗</b></a><a href="https://t.me/Hydratime1" target="_blank" rel="noreferrer"><small>Telegram</small><span>@Hydratime1</span><b>↗</b></a></div></section>
   </main>
 
-  <footer><span>© 2026 HydraDev</span><span>Сделано с интересом к коду</span></footer>
+  <footer><span class="brand">Hydra<span>Dev</span></span><span>© 2026 / сделано с интересом к коду</span><a href="#top">наверх ↑</a></footer>
 </body>
 </html>

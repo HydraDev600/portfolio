@@ -1,8 +1,10 @@
-# HydraDev — portfolio
+# HydraDev Portfolio
 
-Портфолио веб-разработчика: лендинги, сайты на WordPress/Grav и небольшие веб-инструменты.
+Портфолио HydraDev: сайты на WordPress, Grav и HTML/CSS.
 
-## Публикация
-Сайт — статическая HTML/CSS-страница, поэтому его можно разместить через GitHub Pages.
+## Контакты
+- Email: hydradev600@gmail.com
+- Telegram: [@Hydratime1](https://t.me/Hydratime1)
+- Телефон: +7 (993) 225-9390
 
-Перед публикацией замени `your-email@example.com` в `index.html` на настоящий рабочий контакт.
+Сайт публикуется через GitHub Pages.

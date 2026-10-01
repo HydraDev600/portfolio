@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KOTO — концепт сайта городского рамен-бара.">
+  <meta name="theme-color" content="#f2e8d8">
+  <title>KOTO — ramen for bright days</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="header page-width">
+    <a class="logo" href="#top" aria-label="KOTO, на главную">KOTO<span>®</span></a>
+    <nav><a href="#menu">Меню</a><a href="#about">О нас</a><a href="#visit">Контакты</a></nav>
+    <button class="bag" type="button" id="bagButton" aria-label="Добавить блюдо в корзину"><span>Корзина</span><b id="cartCount">0</b></button>
+  </header>
+
+  <main id="top">
+    <section class="hero page-width">
+      <div class="hero-copy reveal"><p class="kicker">Urban ramen bar / Moscow</p><h1>Тёплая еда<br>для <em>ярких</em><br>дней.</h1><p class="hero-text">Рамен, хрустящие закуски и десерты — приготовлены с вниманием к каждой маленькой детали.</p><a class="round-link" href="#menu">Открыть меню <span>↓</span></a></div>
+      <div class="hero-art reveal delay-one" aria-label="Иллюстрация миски рамена" role="img">
+        <div class="sun">KOTO</div><div class="steam steam-a"></div><div class="steam steam-b"></div><div class="steam steam-c"></div>
+        <div class="bowl"><div class="broth"><i class="egg"></i><i class="nori"></i><i class="onion o1"></i><i class="onion o2"></i><i class="noodle n1"></i><i class="noodle n2"></i><i class="noodle n3"></i></div></div><p>slow food / fast city</p>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Наши особенности"><div><span>свежая лапша</span><i>✳</i><span>горячий рамен</span><i>✳</i><span>сезонные продукты</span><i>✳</i><span>свежая лапша</span><i>✳</i><span>горячий рамен</span><i>✳</i></div></section>
+
+    <section class="menu-section page-width" id="menu"><div class="section-top reveal"><div><p class="kicker">Что попробовать</p><h2>Главное<br><em>сегодня.</em></h2></div><p>Наше меню небольшое, чтобы каждый вкус оставался точным.</p></div>
+      <div class="cards">
+        <article class="dish-card card-orange reveal"><div class="dish-head"><span>01 / рамен</span><button type="button" class="add" data-dish="Spicy miso ramen">+</button></div><div class="dish-illustration ramen-icon"><i></i><i></i><i></i></div><div class="dish-info"><h3>Spicy miso<br>ramen</h3><p>Куриный бульон, мисо, чили, кукуруза и яйцо.</p><b>690 ₽</b></div></article>
+        <article class="dish-card card-green reveal delay-one"><div class="dish-head"><span>02 / закуска</span><button type="button" class="add" data-dish="Kimchi fries">+</button></div><div class="dish-illustration fries-icon"><i></i><i></i><i></i><i></i><i></i></div><div class="dish-info"><h3>Kimchi<br>fries</h3><p>Картофель фри, кимчи, сырный соус и кунжут.</p><b>390 ₽</b></div></article>
+        <article class="dish-card card-pink reveal delay-two"><div class="dish-head"><span>03 / десерт</span><button type="button" class="add" data-dish="Matcha cloud">+</button></div><div class="dish-illustration cloud-icon"><i></i><i></i><i></i></div><div class="dish-info"><h3>Matcha<br>cloud</h3><p>Нежный крем, матча и воздушное безе.</p><b>320 ₽</b></div></article>
+      </div>
+    </section>
+
+    <section class="story" id="about"><div class="story-image"><div class="window"><span></span><span></span><span></span><span></span></div><div class="plant plant-one"></div><div class="plant plant-two"></div></div><div class="story-copy reveal"><p class="kicker">Наш ритм</p><h2>Меньше<br>шума.<br><em>Больше вкуса.</em></h2><p>Мы любим простые продукты, сильные сочетания и тот самый момент, когда в городе становится чуть теплее.</p><a href="#visit" class="text-link">Найти нас <span>→</span></a></div></section>
+
+    <section class="visit page-width" id="visit"><div class="visit-copy reveal"><p class="kicker">Заглядывай</p><h2>Будем<br>рады тебе.</h2><p>Каждый день<br><strong>12:00 — 23:00</strong></p><p>Москва, Хлебный переулок, 8<br><a href="tel:+79932259390">+7 (993) 225-9390</a></p></div><div class="visit-stamp reveal delay-one"><div><span>eat warm</span><b>KOTO</b><span>ramen bar</span></div></div></section>
+  </main>
+  <footer class="page-width"><a class="logo" href="#top">KOTO<span>®</span></a><p>Концепт демо-сайта для портфолио HydraDev.</p><a href="#top">наверх ↑</a></footer>
+  <div class="toast" id="toast" role="status">Добавлено: <span></span></div>
+  <script src="script.js"></script>
+</body>
+</html>
